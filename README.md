@@ -9,7 +9,7 @@ Este repositório contém um código simples que imprime "Olá Mundo" em várias
 1. Clone este repositório para o seu ambiente de desenvolvimento local:
 
     ```
-    git clone https://github.com/wiazuu/EstudoFaculdade/Treino
+    git clone https://github.com/wiazuu/Projeto-em-C
     ```
 
 2. Navegue até o diretório do repositório:
@@ -21,7 +21,7 @@ Este repositório contém um código simples que imprime "Olá Mundo" em várias
 3. Execute os scripts de acordo
 
     ```
-    ./treinoOlaMundo
+    ./a.out
     ```
 
 4. Você verá a mensagem "Olá Mundo" sendo exibida no console.
