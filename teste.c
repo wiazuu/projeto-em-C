@@ -1,31 +1,51 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void printGreeting(int languageCode) {
-    if (languageCode == 1) {
+void mudança(int languageCode){
+    switch (languageCode)
+    {
+    case 1:
         printf("Olá, Mundo!\n");
-    } else if (languageCode == 2) {
-        printf("Hello World!\n");
-    } else if (languageCode == 3) {
-        printf("¡Hola Mundo!\n");
-    }else if (languageCode == 4) {
-        printf("Bonjour le monde!\n");
-    }else if (languageCode == 5) {
-        printf("Ciao mondo!\n");
-    }else if (languageCode == 6) {
-        printf("Hallo Welt!\n");
-    }else if (languageCode == 7) {
-        printf("「こんにちは世界」\n");
-    }else if (languageCode == 8) {
-        printf("你好世界！\n");
-    }else if (languageCode == 9) {
-        printf("Привет, мир!\n");
-    }
+    break;
 
-    else {
+    case 2:
+        printf("Hello World!\n");
+    break;
+
+    case 3:
+        printf("¡Hola Mundo!\n");
+    break;
+
+    case 4:
+        printf("Bonjour le monde!\n");
+    break;
+
+    case 5:
+        printf("Ciao mondo!\n");
+    break;
+
+    case 6:
+        printf("Hallo Welt!\n");
+    break;
+
+    case 7:
+        printf("こんにちは世界\n");
+    break;
+
+    case 8:
+        printf("你好世界！\n");
+    break;
+
+    case 9:
+        printf("Привет, мир!\n");
+    break;
+    
+    default:
         printf("Erro: língua não encontrada\n");
+    break;
     }
 }
+
 
 int main() {
     int numero;
