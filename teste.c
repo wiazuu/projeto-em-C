@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void mudança(int languageCode){
+// Função para escolher a língua
+void mudanca(int languageCode) {
     switch (languageCode)
     {
     case 1:
@@ -39,13 +40,12 @@ void mudança(int languageCode){
     case 9:
         printf("Привет, мир!\n");
     break;
-    
+
     default:
         printf("Erro: língua não encontrada\n");
     break;
     }
 }
-
 
 int main() {
     int numero;
@@ -63,7 +63,7 @@ int main() {
         if (numero == 0) {
             break;
         } else if (numero > 0 && numero <= 9) {
-            printGreeting(numero);
+            mudanca(numero); // Chama a função correta
         } else {
             printf("Opção inválida, tente novamente.\n");
         }
